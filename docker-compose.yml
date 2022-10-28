@@ -12,7 +12,7 @@ services:
     stdin_open: true
     working_dir: /data
     volumes:
-      - /home/minecraft:/data
+      - .:/data
     environment:
       - WORKDIR=/data
       - BASE_DIR=/data
